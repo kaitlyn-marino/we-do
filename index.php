@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script src="js/main.js" defer></script>
+
   <meta name="theme-color" content="#fafafa">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
@@ -34,32 +36,33 @@
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
-          <ul class="nav-links">
-            <li><a href="./our-story/index.html">Our Story</a></li>
-            <li><a href="./schedule/index.html">Schedule</a></li>
-            <li><a href="./hotels/index.html">Hotels</a></li>
-            <li><a href="./things-to-do/index.html">Things To Do</a></li>
-            <li><a href="./registry/index.html">Registry</a></li>
-            <li><a href="./rsvp/index.html">RSVP</a></li>
-            <li><a href="./wedding-parties/index.html">Wedding Parties</a></li>
-            <li><a href="./food-drink/index.html">Menu</a></li>
+        </div>
+      </div>
+    </nav>
+       <div class="nav-links hide">
+          <ul>
+            <li><a href="./our-story/index.php">Our Story</a></li>
+            <li><a href="./schedule/index.php">Schedule</a></li>
+            <li><a href="./hotels/index.php">Hotels</a></li>
+            <li><a href="./things-to-do/index.php">Things To Do</a></li>
+            <li><a href="./registry/index.php">Registry</a></li>
+            <li><a href="./rsvp/index.php">RSVP</a></li>
+            <li><a href="./wedding-parties/index.php">Wedding Parties</a></li>
+            <li><a href="./food-drink/index.php">Menu</a></li>
           </ul>
         </div>
       </div>
-      <a href="index.html">
         <p>We Do</p>
-      </a>
-      <ul class="nav-links">
-        <li><a href="./our-story/index.html">Our Story</a></li>
-        <li><a href="./schedule/index.html">Schedule</a></li>
-        <li><a href="./hotels/index.html">Hotels</a></li>
-        <li><a href="./things-to-do/index.html">Things To Do</a></li>
-        <li><a href="./registry/index.html">Registry</a></li>
-        <li><a href="./rsvp/index.html">RSVP</a></li>
-        <li><a href="./wedding-parties/index.html">Wedding Parties</a></li>
-        <li><a href="./food-drink/index.html">Menu</a></li>
+      <ul class="nav-links-desktop">
+            <li><a href="./our-story/index.php">Our Story</a></li>
+            <li><a href="./schedule/index.php">Schedule</a></li>
+            <li><a href="./hotels/index.php">Hotels</a></li>
+            <li><a href="./things-to-do/index.php">Things To Do</a></li>
+            <li><a href="./registry/index.php">Registry</a></li>
+            <li><a href="./rsvp/index.php">RSVP</a></li>
+            <li><a href="./wedding-parties/index.php">Wedding Parties</a></li>
+            <li><a href="./food-drink/index.php">Menu</a></li>
       </ul>
-    </nav>
   </header>
 
   <div class="intro">
@@ -85,7 +88,7 @@
         <p></p>
 
         <div class="button">
-          <a href="./rsvp/index.html" target="_blank">
+          <a href="./rsvp/index.php" target="_blank">
             <p>RSVP</p>
           </a>
         </div>

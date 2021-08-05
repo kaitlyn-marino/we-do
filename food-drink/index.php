@@ -23,48 +23,44 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script src="../js/main.js" defer></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="mobile-nav">
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <ul class="nav-links">
-            <li><a href="../our-story/index.html">Our Story</a></li>
-            <li><a href="../schedule/index.html">Schedule</a></li>
-            <li><a href="../hotels/index.html">Hotels</a></li>
-            <li><a href="../things-to-do/index.html">Things To Do</a></li>
-            <li><a href="../registry/index.html">Registry</a></li>
-            <li><a href="../rsvp/index.html">RSVP</a></li>
-            <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-            <li><a href="../food-drink/index.html">Menu</a></li>
-          </ul>
-        </div>
-      </div>
-      <a href="../index.html">
-        <p>We Do</p>
-      </a>
-      <ul class="nav-links">
-        <li><a href="../our-story/index.html">Our Story</a></li>
-        <li><a href="../schedule/index.html">Schedule</a></li>
-        <li><a href="../hotels/index.html">Hotels</a></li>
-        <li><a href="../things-to-do/index.html">Things To Do</a></li>
-        <li><a href="../registry/index.html">Registry</a></li>
-        <li><a href="../rsvp/index.html">RSVP</a></li>
-        <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-        <li><a href="../food-drink/index.html">Menu</a></li>
-      </ul>
-    </nav>
+    <?php include('../header.php'); ?>
   </header>
-
-  <div class="coming-soon">
-    <p><span class="page-name">Registry</span></p>
-    <p><span class="message">Coming Soon!<br>Please check back later!</span></p>
+  
+  <div class="menu-buffet-style">
+    <p>Food & Beverage Menu</p>
+    <ul>
+      <li><span class="food-header">Appetizers</span></li>
+      <li><span class="food-selection">Charcuterie Board</span></li>
+      <li><span class="food-selection">Fresh Fruit</span></li>
+      <li><span class="food-selection">Chocolate & Strawberry Fountains served with marshmallows, pretzel rods, fresh fruit & skewers</span></li>
+    </ul>
+    <ul>
+      <li><span class="food-header">Dinner</span></li>
+      <li><span class="food-selection">House Salad & Bread</span></li>
+      <li><span class="food-selection">Smoked Beef Brisket w/ Bourbon Glaze</span></li>
+      <li><span class="food-selection">Herb Baked Chicken & Veggies</span></li>
+      <li><span class="food-selection">Smashed Potatoes</span></li>
+      <li><span class="food-selection">Mixed Vegetables</span></li>
+      <li><span class="food-selection">Mac & Cheese Martini Bar</span></li>
+    </ul>  
+    <ul>
+      <li><span class="food-header">Dessert</span></li>
+      <li><span class="food-selection">Wedding Cake</span></li>
+      <li><span class="food-selection">Dessert Table</span></li>
+    </ul>
+    <ul>
+      <li><span class="food-header">Drinks</span></li>
+      <li><span class="food-selection">Open Bar</span></li>
+      <li><span class="food-selection">Citrus Infused Water</span></li>
+      <li><span class="food-selection">Sweet Tea</span></li>
+    </ul>
   </div>
 
 

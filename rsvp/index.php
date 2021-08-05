@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script src="../js/main.js" defer></script>
   <script src="js/main.js" defer></script>
 
   <meta name="theme-color" content="#fafafa">
@@ -30,38 +31,7 @@
 
 <body>
   <header>
-    <nav>
-      <div class="mobile-nav">
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <ul class="nav-links">
-            <li><a href="../our-story/index.html">Our Story</a></li>
-            <li><a href="../schedule/index.html">Schedule</a></li>
-            <li><a href="../hotels/index.html">Hotels</a></li>
-            <li><a href="../things-to-do/index.html">Things To Do</a></li>
-            <li><a href="../registry/index.html">Registry</a></li>
-            <li><a href="../rsvp/index.html">RSVP</a></li>
-            <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-            <li><a href="../food-drink/index.html">Menu</a></li>
-          </ul>
-        </div>
-      </div>
-      <a href="../index.html">
-        <p>We Do</p>
-      </a>
-      <ul class="nav-links">
-        <li><a href="../our-story/index.html">Our Story</a></li>
-        <li><a href="../schedule/index.html">Schedule</a></li>
-        <li><a href="../hotels/index.html">Hotels</a></li>
-        <li><a href="../things-to-do/index.html">Things To Do</a></li>
-        <li><a href="../registry/index.html">Registry</a></li>
-        <li><a href="../rsvp/index.html">RSVP</a></li>
-        <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-        <li><a href="../food-drink/index.html">Menu</a></li>
-      </ul>
-    </nav>
+    <?php include('../header.php'); ?>
   </header>
 
   <div class="rsvp">

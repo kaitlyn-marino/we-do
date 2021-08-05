@@ -23,51 +23,33 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <script src="../js/main.js" defer></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="mobile-nav">
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <ul class="nav-links">
-            <li><a href="../our-story/index.html">Our Story</a></li>
-            <li><a href="../schedule/index.html">Schedule</a></li>
-            <li><a href="../hotels/index.html">Hotels</a></li>
-            <li><a href="../things-to-do/index.html">Things To Do</a></li>
-            <li><a href="../registry/index.html">Registry</a></li>
-            <li><a href="../rsvp/index.html">RSVP</a></li>
-            <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-            <li><a href="../food-drink/index.html">Menu</a></li>
-          </ul>
-        </div>
-      </div>
-      <a href="../index.html">
-        <p>We Do</p>
-      </a>
-      <ul class="nav-links">
-        <li><a href="../our-story/index.html">Our Story</a></li>
-        <li><a href="../schedule/index.html">Schedule</a></li>
-        <li><a href="../hotels/index.html">Hotels</a></li>
-        <li><a href="../things-to-do/index.html">Things To Do</a></li>
-        <li><a href="../registry/index.html">Registry</a></li>
-        <li><a href="../rsvp/index.html">RSVP</a></li>
-        <li><a href="../wedding-parties/index.html">Wedding Parties</a></li>
-        <li><a href="../food-drink/index.html">Menu</a></li>
-      </ul>
-    </nav>
+    <?php include('../header.php'); ?>
   </header>
 
-  <div class="coming-soon">
-    <p><span class="page-name">Hotels</span></p>
-    <p><span class="message">Coming Soon!<br>Please check back later!</span></p>
+  <div class="wedding-schedule">
+    <p>Wedding Schedule</p>
+    <ul>
+      <li>Arrive at 4</li>
+      <li>Ceremony at 4:30</li>
+      <li>Cocktail Hour</li>
+      <li>Dinner at 7</li>
+      <li>Party Until 10:45</li>
+      <li>Send-Off at 11</li>
+    </ul>
   </div>
 
-
+  <div class="address">
+    <p>1001 Lipscomb Grove Church Rd, Hillsborough, NC 27278</p>
+  </div>
+  
+  
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

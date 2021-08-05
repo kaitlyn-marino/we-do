@@ -40,6 +40,13 @@ a {
   margin: 0 auto;
   width: 30%;
 }
+.hide {
+  display: none !important;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -129,9 +136,6 @@ header p {
   line-height: 1.5em;
   padding-left: 30px;
 }
-header .nav-links {
-  display: none;
-}
 .hamburger {
   display: flex;
   align-items: flex-end;
@@ -145,7 +149,7 @@ header .nav-links {
   margin: 5px;
   background-color: white;
 }
-.hamburger:hover {
+.nav-links {
   position: absolute;
   right: 0;
   top: 0;
@@ -154,26 +158,24 @@ header .nav-links {
   width: 100%;
   margin: 0 auto;
   padding-right: 20px;
-}
-.hamburger:hover .nav-links {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
   margin: 0 auto;
 }
-.hamburger:hover .nav-links li {
+.nav-links li {
   list-style-type: none;
   text-align: center;
   font-size: 1.7em;
   line-height: 2.9em;
   margin: 0 auto;
 }
-.hamburger:hover .nav-links li a {
+.nav-links li a {
   color: #6C6E6C;
   text-decoration: none;
 }
-.hamburger:hover .line {
+.nav-links-desktop {
   display: none;
 }
 
@@ -350,20 +352,17 @@ header .nav-links {
     .hamburger {
       display: none;
     }
-    header .hamburger .nav-links {
-      display: none;
-    }
-    header .nav-links {
+    header .nav-links-desktop {
       display: flex;
       align-items: center;
       justify-content: center;
       margin: 0 auto;
       padding: 10px 0 20px;
     }
-    .nav-links {
+    .nav-links-desktop {
       list-style-type: none;
     }
-    .nav-links li {
+    .nav-links-desktop li {
       color: white;
       font-size: 2.1vw;
       margin: 0 17px;
@@ -398,16 +397,12 @@ header .nav-links {
     }
 }
     
-  
 @media only screen and (min-width: 1080px) {
 /* Desktop Version */
   /*-------- HEADER ON ALL PAGES --------*/
-  .hamburger {
-    display: none;
-  }
   header p {
     font-size: 22em;
-    line-height: 1.7em;
+    line-height: 1.75em;
   }
   .nav-links li {
     margin: 0 40px 30px 0;
